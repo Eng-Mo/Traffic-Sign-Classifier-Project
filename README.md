@@ -4,21 +4,21 @@
 
 [//]: # (Image References)
 
-[iSoft1]: ./SoftPredict0.png "ImgSoft0"
-[iSoft2]: ./SoftPredict1.png "ImgSoft1"
-[iSoft3]: ./SoftPredict2.png "ImgSoft2"
-[iSoft4]: ./SoftPredict3.png "ImgSoft3"
-[iSoft5]: ./SoftPredict4.png "ImgSoft4"
-[iSoft6]: ./SoftPredict5.png "ImgSoft5"
-[iSoft7]: ./SoftPredict6.png "ImgSoft6"
-[iSoft8]: ./SoftPredict0.png "ImgSoft7"
-[image1]:./out_images/testImg.png
-[image2]:./out_images/norImgOut.png
-[iNorm]: ./normtest.png
-[itrain]: ./train.png 
-[ivalidation]: ./validation.png 
-[itest]: ./test.png 
-[iHist]: ./class_histogram_plot.png 
+[iSoft1]: ./out_images/SoftPredict0.png "ImgSoft0"
+[iSoft2]: ./out_images/SoftPredict1.png "ImgSoft1"
+[iSoft3]: ./out_images/SoftPredict2.png "ImgSoft2"
+[iSoft4]: ./out_images/SoftPredict3.png "ImgSoft3"
+[iSoft5]: ./out_images/SoftPredict4.png "ImgSoft4"
+[iSoft6]: ./out_images/SoftPredict5.png "ImgSoft5"
+[iSoft7]: ./out_images/SoftPredict6.png "ImgSoft6"
+[iSoft8]: ./out_images/SoftPredict0.png "ImgSoft7"
+[image1]: ./out_images/testImg.png
+[image2]: ./out_images/norImgOut.png
+[iNorm]:  ./out_images/normtest.png
+[itrain]: ./out_images/train.png 
+[ivalidation]: ./out_images/validation.png 
+[itest]: ./out_images/test.png 
+[iHist]: ./out_images/class_histogram_plot.png 
 
 
 **Data Set Summary & Exploration**
