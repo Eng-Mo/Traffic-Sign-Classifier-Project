@@ -12,6 +12,13 @@
 [iSoft6]: ./SoftPredict5.png "ImgSoft5"
 [iSoft7]: ./SoftPredict6.png "ImgSoft6"
 [iSoft8]: ./SoftPredict0.png "ImgSoft7"
+[image1]:./out_images/testImg.png
+[image2]:./out_images/norImgOut.png
+[iNorm]: ./normtest.png
+[itrain]: ./train.png 
+[ivalidation]: ./validation.png 
+[itest]: ./test.png 
+[iHist]: ./class_histogram_plot.png 
 
 
 **Data Set Summary & Exploration**
@@ -24,33 +31,26 @@ The follwoing are the data exploration from test.p,train.p data and the number o
 * The shape of a traffic sign image is (32, 32, 3)
 * The number of unique classes/labels in the data set is 43
 
-The images (train,validation,test) samples are presented below and the following chart shows the histogram of each class ID:
-
+The images (train,validation,test) samples are presented below and followed by a chart histogram of each class ID.
 
 ![train sample][itrain]
-
 ![alt text][ivalidation]
-
 ![alt text][itest]
-
-![alt text][iHist] 
-[itrain]: ./train.png 
-[ivalidation]: ./validation.png 
-[itest]: ./test.png 
-[iHist]: ./class_histogram_plot.png 
+![alt text][iHist]
 
 **Design and Test a Model Architecture**
 
 Not many presprocerssing technioque was used as the only prerossessing was normalisation the test, train, valoidation set to reduce computation and big error when adding and multiplying the weights by using the follwing equation (X/122.5)-1 and the result as following:
 
 ![alt text][iNorm] 
-[iNorm]: ./normtest.png
 
 
+Note: converting to gary scale was attemted but not test as arised error says cann't feed dict with shape (64,32,32) with tensor (?,32,32,1) even after adding channel cololumnd to the data test. 
 
 **Model Architecture**
 
-the Lenet model was chosen to start the experments. this work is adopted code of LeNet Lab That we studied in the class. the model is the same except the batch size changed to 64 for better accuracy after trying 128,256. 
+the Lenet model was chosen to start the experments. this work is adopted code of LeNet Lab That we studied in the class. the model is the same exept the batch size changed to 64 for better accuracy after trying 128,256. Basically I didnt went so deep to understand the architecture performance.
+
 My final model contaion the following layers:
 
 | Layer         		|     Description	        					| 
@@ -85,6 +85,7 @@ The mjor challenge was the not steady increasing in accuracy as it some point of
 **Test a Model on New Images**
 
 Here are five German traffic signs that I found on the web. The following images are the images before and after preprocessing.
+
 ![alt text][image1]
 ![alt text][image2]
 
